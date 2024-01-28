@@ -1,0 +1,55 @@
+body, .container {
+    color: white;
+    font-family: Arial, sans-serif;
+    background-color: black;
+}
+
+.container {
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button#clearButton {
+    background-color: gray;
+    color: white;
+
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+li {
+    margin-bottom: 8px; 
+}
+
+li input[type="checkbox"] {
+    margin-right: 12px; 
+}
+
+
+li.completed {
+    text-decoration: line-through;
+    color: rgba(128, 128, 128, 0.737);
+}
